@@ -1,1 +1,1 @@
-# campus-connect
+# Campus-Connect
