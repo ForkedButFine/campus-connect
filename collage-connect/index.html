@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Collage Connect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Collage Connect</h1>
+      <div class="nav">
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign up</a>
+      </div>
+    </div>
+
+    <div class="search">
+      <input id="q" placeholder="Search colleges, city, or course...">
+      <button onclick="search()">Search</button>
+    </div>
+
+    <div id="results">
+      <!-- list of colleges loaded from backend -->
+    </div>
+  </div>
+
+  <script>
+  async function search(){
+    const q = document.getElementById('q').value;
+    const r = await fetch('/api/colleges?q=' + encodeURIComponent(q));
+    const arr = await r.json();
+    const out = document.getElementById('results');
+    if(!arr.length){ out.innerHTML = '<div class="card">No colleges found</div>'; return; }
+    out.innerHTML = arr.map(c => `
+      <div class="card">
+        <div class="college-title">${c.name}</div>
+        <div class="small">${c.city}, ${c.state} • Rating: ${c.rating_avg || 'N/A'}</div>
+        <p>${(c.description || '').slice(0,180)}</p>
+        <a href="/college.html?id=${c.id}">View</a>
+      </div>
+    `).join('');
+  }
+
+  // initial load
+  search();
+  </script>
+</body>
+</html>
