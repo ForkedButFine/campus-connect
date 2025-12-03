@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "email": "amulya@campus.com",
+    "password": "password",
+    "name": "Amulya",
+    "role": "student",
+    "achievements": ["Best Project Award 2024", "Hackathon Winner"],
+    "bio": "Computer Science enthusiast passionate about AI and ML",
+    "interests": ["Coding", "AI/ML", "Music"]
+  },
+  {
+    "id": 2,
+    "email": "ujjayani@campus.com",
+    "password": "password",
+    "name": "Ujjayani",
+    "role": "student",
+    "achievements": ["Academic Excellence", "Sports Captain"],
+    "bio": "Love coding and sports equally",
+    "interests": ["Sports", "Design", "Photography"]
+  },
+  {
+    "id": 3,
+    "email": "aakash@campus.com",
+    "password": "password",
+    "name": "Aakash_",
+    "role": "student",
+    "achievements": ["Tech Lead", "Innovation Award"],
+    "bio": "Full stack developer and tech enthusiast",
+    "interests": ["Web Development", "Gaming", "Tech"]
+  },
+  {
+    "id": 4,
+    "email": "disha@campus.com",
+    "password": "password",
+    "name": "Disha",
+    "role": "student",
+    "achievements": ["Design Champion"],
+    "bio": "UI/UX Designer who loves creating beautiful experiences",
+    "interests": ["UI/UX", "Art", "Design"]
+  },
+  {
+    "id": 5,
+    "email": "astha@campus.com",
+    "password": "password",
+    "name": "Astha",
+    "role": "student",
+    "achievements": ["Research Paper Published"],
+    "bio": "AI/ML Researcher working on computer vision",
+    "interests": ["Research", "AI", "Reading"]
+  },
+  {
+    "id": 6,
+    "email": "prajwal@campus.com",
+    "password": "password",
+    "name": "Prajwal",
+    "role": "student",
+    "achievements": ["Coding Competition Winner"],
+    "bio": "Competitive Programmer and problem solver",
+    "interests": ["Competitive Programming", "Chess", "Math"]
+  },
+  {
+    "id": 7,
+    "email": "pragati@campus.com",
+    "password": "password",
+    "name": "Pragati",
+    "role": "student",
+    "achievements": ["Leadership Award"],
+    "bio": "Student Council Member dedicated to campus improvement",
+    "interests": ["Leadership", "Events", "Public Speaking"]
+  },
+  {
+    "id": 8,
+    "email": "asmita@campus.com",
+    "password": "password",
+    "name": "Asmita",
+    "role": "student",
+    "achievements": ["Best Presenter"],
+    "bio": "Public Speaking Expert and debate champion",
+    "interests": ["Public Speaking", "Writing", "Drama"]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 101,
+    "name": "Rajash Gopal",
+    "subject": "Physics",
+    "email": "rajash.gopal@campus.edu",
+    "achievements": [
+      "Ph.D. in Quantum Physics",
+      "Published 20+ research papers",
+      "Best Teacher Award 2023"
+    ],
+    "bio": "Passionate about making physics accessible and exciting for all students."
+  },
+  {
+    "id": 102,
+    "name": "T Sruthi",
+    "subject": "Soft Skills",
+    "email": "t.sruthi@campus.edu",
+    "achievements": [
+      "MBA in HR",
+      "Corporate Trainer with 10+ years experience",
+      "TEDx Speaker"
+    ],
+    "bio": "Helping students develop essential communication and interpersonal skills."
+  },
+  {
+    "id": 103,
+    "name": "Anaswara",
+    "subject": "IDT Design",
+    "email": "anaswara@campus.edu",
+    "achievements": [
+      "Design Thinking Certified",
+      "Innovation Award Winner",
+      "Published Design Case Studies"
+    ],
+    "bio": "Fostering creative problem-solving through design thinking methodologies."
+  },
+  {
+    "id": 104,
+    "name": "Kishor",
+    "subject": "Mathematics",
+    "email": "kishor@campus.edu",
+    "achievements": [
+      "M.Sc. Mathematics",
+      "Gold Medalist",
+      "Math Olympiad Coach"
+    ],
+    "bio": "Making complex mathematical concepts simple and intuitive."
+  },
+  {
+    "id": 105,
+    "name": "B Rajender Prasad",
+    "subject": "CADE",
+    "email": "b.rajender@campus.edu",
+    "achievements": [
+      "Expert in AutoCAD & SolidWorks",
+      "Industry Experience: 15 years",
+      "NPTEL Course Coordinator"
+    ],
+    "bio": "Bridging the gap between theoretical knowledge and practical application."
+  },
+  {
+    "id": 106,
+    "name": "Shilpa Shree",
+    "subject": "C Programming",
+    "email": "shilpa.shree@campus.edu",
+    "achievements": [
+      "Coding Competition Judge",
+      "Open Source Contributor",
+      "Published Programming Textbook"
+    ],
+    "bio": "Building strong programming foundations for future software engineers."
+  },
+  {
+    "id": 107,
+    "name": "Dr. Shiva Kumar",
+    "subject": "Python",
+    "email": "shiva.kumar@campus.edu",
+    "achievements": [
+      "Ph.D. in Computer Science",
+      "Python Certified Expert",
+      "AI/ML Researcher"
+    ],
+    "bio": "Exploring the power of Python in data science and artificial intelligence."
+  },
+  {
+    "id": 108,
+    "name": "Sachin",
+    "subject": "ECE (Electronics)",
+    "email": "sachin@campus.edu",
+    "achievements": [
+      "M.Tech in VLSI Design",
+      "Patent Holder",
+      "IEEE Member"
+    ],
+    "bio": "Empowering students with cutting-edge electronics and circuit design knowledge."
+  },
+  {
+    "id": 109,
+    "name": "Sagar",
+    "subject": "Mathematics Lab",
+    "email": "sagar@campus.edu",
+    "achievements": [
+      "MATLAB Expert",
+      "Research Publications in Applied Math",
+      "Best Lab Coordinator"
+    ],
+    "bio": "Making mathematics tangible through hands-on experimentation."
+  },
+  {
+    "id": 110,
+    "name": "Ayappa",
+    "subject": "Chemistry",
+    "email": "ayappa@campus.edu",
+    "achievements": [
+      "Ph.D. in Organic Chemistry",
+      "Research Grant Recipient",
+      "Science Fair Organizer"
+    ],
+    "bio": "Inspiring curiosity about the molecular world around us."
+  }
+]
